@@ -1,9 +1,12 @@
 {
-    "_base": "https://raw.githubusercontent.com/azhadsyed/strudel-samples/main/",
-    "bags": [
-        "bags/0_16.wav",
-        "bags/1_32.wav",
-        "bags/2_24.wav",
-        "bags/3_32.wav"
-    ]
+  "_base": "https://raw.githubusercontent.com/azhadsyed/strudel-samples/main/",
+  "bags": [
+    "bags/0_16.wav",
+    "bags/1_32.wav",
+    "bags/2_24.wav",
+    "bags/3_32.wav"
+  ],
+  "foo": [
+    "foo/1.wav"
+  ]
 }
