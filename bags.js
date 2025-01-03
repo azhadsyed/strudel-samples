@@ -1,7 +1,3 @@
-samples({
-    bags: 'bags/0_16.wav',
-  }, 'https://raw.githubusercontent.com/azhadsyed/strudel-samples/main/');
+samples('github:azhadsyed/strudel-samples');
   
-  stack(
-    s("bags").loopAt(16).slice(32, "[11 11 . 11 11 . 10 10 . 10 10 . 12 12 . 12 12 . 14 14 . 13]/8").hpf(250).cut(1),
-  ).cpm(136/2);
+s("bags:1").loopAt(32).slice(64, "<[3!6 2!10]!2 [4!7 5!4 5.25!5] [6!8 7!4 7.25!4]>").slow(2).cut(1)
