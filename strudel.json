@@ -6,6 +6,10 @@
     "bags/2_24.wav",
     "bags/3_32.wav"
   ],
+  "bass": [
+    "bass/0.wav",
+    "bass/1.wav"
+  ],
   "sunset": [
     "sunset/0_72.wav"
   ]
